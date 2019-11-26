@@ -11,6 +11,12 @@
     USER_ID,USER_NAME,USER_AGE,PWD
   </sql>
 
+  <insert id="insertUserInfo" parameterType="com.hdx.bean.UserInfo">
+    insert into USER_INFO(USER_ID,USER_NAME,USER_AGE,PWD)
+    value (#{userId,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR},#{userAge,jdbcType=INTEGER},#{pwd,jdbcType=VARCHAR})
+
+  </insert>
+
 
   <select id="selectById" parameterType="java.lang.String" resultMap="BaseResultMap">
     select * from USER_INFO

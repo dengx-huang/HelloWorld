@@ -5,8 +5,8 @@ import com.hdx.bean.UserInfo;
 import java.util.List;
 
 public interface UserInfoService {
-    void addUser();
+    String addUser(UserInfo userInfo);
     List<UserInfo> getUsers();
-    UserInfo getUserById();
+    UserInfo getUserById(String userId);
 
 }

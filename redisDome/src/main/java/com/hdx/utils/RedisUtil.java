@@ -1,14 +1,21 @@
 package com.hdx.utils;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 import static org.apache.naming.ResourceRef.AUTH;
 
 public class RedisUtil {
+    private static Logger logger = LoggerFactory.getLogger(RedisUtil.class);
+
     private final static String ADDR = "127.0.0.1";
 
-    private final static String PORT = "6379";
+    private final static int PORT = 6379;
+    //密码
+    private static String AUTH = "";
 
     private static int MAX_ACTIVE = 1024;
     //控制一个pool最多有多少个状态为idle(空闲的)的jedis实例，默认值也是8。
@@ -37,7 +44,7 @@ public class RedisUtil {
             config.setMaxIdle(MAX_IDLE);
             config.setMaxWaitMillis(MAX_WAIT);
             config.setTestOnBorrow(TEST_ON_BORROW);
-//            jedisPool = new JedisPool(config, ADDR, PORT, TIMEOUT,AUTH,DEFAULT_DATABASE);
+            jedisPool = new JedisPool(config, ADDR, PORT, TIMEOUT,AUTH,DEFAULT_DATABASE);
 
         } catch (Exception e) {
 
@@ -47,5 +54,29 @@ public class RedisUtil {
     }
 
 
+    /**
+     * 获取jedis实例
+     * @return
+     */
+    public synchronized static Jedis getJedis(){
+        if (jedisPool == null){
+            return null;
+        }
+        Jedis jedis = jedisPool.getResource();
+        logger.info("redis runing! {}",jedis.ping());
+        return jedis;
+    }
+
+    /**
+     * 释放资源
+     * @param jedis
+     */
+    public static void returnResource(final Jedis jedis){
+        if (jedis == null){
+            return;
+        }
+        jedisPool.returnResource(jedis);
+
+    }
 
 }

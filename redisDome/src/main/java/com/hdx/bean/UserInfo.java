@@ -3,7 +3,7 @@ package com.hdx.bean;
 public class UserInfo {
     private String userId;
     private String userName;
-    private String userAge;
+    private Integer userAge;
     private String pwd;
 
     public String getUserId() {
@@ -22,11 +22,11 @@ public class UserInfo {
         this.userName = userName;
     }
 
-    public String getUserAge() {
+    public Integer getUserAge() {
         return userAge;
     }
 
-    public void setUserAge(String userAge) {
+    public void setUserAge(Integer userAge) {
         this.userAge = userAge;
     }
 
@@ -40,7 +40,7 @@ public class UserInfo {
 
     @Override
     public String toString() {
-        return "UserInfo{" +
+        return "{" +
                 "userId:'" + userId + '\'' +
                 ", userName:'" + userName + '\'' +
                 ", userAge:'" + userAge + '\'' +

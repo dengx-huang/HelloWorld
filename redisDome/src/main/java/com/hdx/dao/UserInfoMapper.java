@@ -6,12 +6,16 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.util.StringUtils;
 
 @Mapper
 public interface UserInfoMapper {
     UserInfo selectById(String userId);
 
+
     List<UserInfo> selectAll();
+
+    int insertUserInfo(UserInfo userInfo);
 
    /* int countByExample(UserInfoExample example);
 
