@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6030b0-654b-4402-a01f-89b911340fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/ClazzA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/ClazzB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/UseClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/javademo/BrRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbAreaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/controller/NuonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/dao/TbAreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/dao/TbNuonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/AreaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/NuonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/ConstanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/TbAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDemo/out/production/JavaDemo/com/demo/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/out/production/JavaDemo/com/demo/bean/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaDemo/src/com/demo/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/bean/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/utils/JedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/utils/JedisUtil.class" afterDir="false" />
-    </list>
+    <list default="true" id="ae6030b0-654b-4402-a01f-89b911340fdf" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-416">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="189">
+              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -371,7 +345,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575008485801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575009259463" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -463,12 +437,12 @@
       <workItem from="1574644091342" duration="9922000" />
       <workItem from="1574732608335" duration="6820000" />
       <workItem from="1574750527143" duration="2261000" />
-      <workItem from="1574994999383" duration="2934000" />
+      <workItem from="1574994999383" duration="3187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48173000" />
+    <option name="totallyTimeSpent" value="48426000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +463,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32894737" />
@@ -501,7 +475,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32748538" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.1374269" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -837,8 +811,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state relative-caret-position="189">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
         </state>
       </provider>
     </entry>

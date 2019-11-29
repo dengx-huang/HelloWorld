@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f80c4b8-9ad9-426f-b134-32633c4f739a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/design/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/design/shape/ClazzA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/design/shape/ClazzB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/design/shape/UseClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/javademo/BrRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/bean/TbArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/bean/TbAreaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/bean/TbNuon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/bean/TbNuonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/controller/NuonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/dao/TbAreaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/dao/TbNuonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/service/AreaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/service/NuonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/utils/ConstanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/resources/mapping/TbAreaMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisDome/src/main/resources/mapping/TbNuonMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/demo/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/demo/bean/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/demo/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/bean/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisDome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redisDome/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/utils/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisDome/src/main/java/com/hdx/utils/JedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisDome/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redisDome/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisDome/target/classes/com/hdx/utils/JedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../redisDome/target/classes/com/hdx/utils/JedisUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
