@@ -1,6 +1,8 @@
 package com.demo.bean;
 
-public class UserInfo {
+import java.io.Serializable;
+
+public class UserInfo implements Serializable {
     private String userName;
     private Integer age;
     private String addr;

@@ -2,33 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae6030b0-654b-4402-a01f-89b911340fdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/commons/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/commons/ReturnMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/commons/interfaces/IBaseNewObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/NewObjectUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/ClazzA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/ClazzB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/design/shape/UseClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/javademo/BrRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbAreaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/controller/NuonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/dao/TbAreaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/dao/TbNuonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/AreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/NuonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/ConstanUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/TbAreaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemo/out/production/JavaDemo/com/demo/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/out/production/JavaDemo/com/demo/bean/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDemo/src/com/demo/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDemo/src/com/demo/bean/UserInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/bean/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/bean/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/bean/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/bean/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/controller/UserInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/controller/UserInfoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/dao/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/dao/UserInfoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/service/UserInfoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/service/impl/UserInfoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/utils/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/utils/RedisUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hdx/utils/JedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hdx/utils/JedisUtil.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,22 +79,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/controller/NuonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="77" column="53" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="53" />
+            <state relative-caret-position="66">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,34 +91,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-416">
+              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/SpringBootApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbAreaMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/bean/TbAreaExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/mapping/UserInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/NuonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="36">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/AreaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -164,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/start/SpringBootApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/06e46d57-9662-418a-930a-a8f0a0be03fc/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/mapping/UserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SpringBootApplication.java" />
@@ -186,13 +192,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java" />
         <option value="7cf36cb4-4cea-4eb9-820f-09893fecc8e3/schema/TEST/table/USER_INFO.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/utils/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/bean/UserInfo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/utils/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/utils/ConstanUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/controller/NuonController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbArea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuon.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,24 +306,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdx" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redisDome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hdx" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="redisDome" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hdx" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,7 +315,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdx" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
@@ -329,13 +324,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hdx" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redisDome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redisDome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redisDome" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redisDome" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -353,7 +371,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574750505729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575008485801" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -386,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootApplication">
+  <component name="RunManager" selected="Maven.generate">
     <configuration name="generate" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -444,12 +462,13 @@
       <workItem from="1574482171752" duration="5259000" />
       <workItem from="1574644091342" duration="9922000" />
       <workItem from="1574732608335" duration="6820000" />
-      <workItem from="1574750527143" duration="459000" />
+      <workItem from="1574750527143" duration="2261000" />
+      <workItem from="1574994999383" duration="2934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43437000" />
+    <option name="totallyTimeSpent" value="48173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,6 +481,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="33" width="1400" height="776" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
@@ -469,7 +489,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24594992" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32894737" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32894737" />
@@ -481,7 +501,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.40643275" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32748538" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.1374269" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -508,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -631,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/NewObjectUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/UserInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -651,13 +654,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7cf36cb4-4cea-4eb9-820f-09893fecc8e3/schema/TEST/table/USER_INFO.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7cf36cb4-4cea-4eb9-820f-09893fecc8e3/schema/TEST/table/USER_INFO.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/RedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -665,13 +662,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -717,27 +707,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7cf36cb4-4cea-4eb9-820f-09893fecc8e3/schema/TEST/table/USER_INFO">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://7cf36cb4-4cea-4eb9-820f-09893fecc8e3/schema/TEST/table/USER_INFO" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/impl/UserInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="53" />
+        <state relative-caret-position="126">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/ConstanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -746,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="144">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -761,13 +749,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/dao/UserInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="76">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/controller/UserInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/utils/NewObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/bean/TbArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/bean/TbNuon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/NuonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/service/AreaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/controller/NuonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdx/bean/TbAreaExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbAreaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TbNuonMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-416">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>

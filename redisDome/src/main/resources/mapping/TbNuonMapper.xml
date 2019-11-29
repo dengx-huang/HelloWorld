@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hdx.dao.TbNuonMapper" >
+  <resultMap id="BaseResultMap" type="com.hdx.bean.TbNuon" >
+    <result column="NUON_ID" property="nuonId" jdbcType="VARCHAR" />
+    <result column="NUON_NAME" property="nuonName" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    NUON_ID, NUON_NAME
+  </sql>
+
+  <select id="selectById" resultMap="BaseResultMap" parameterType="com.hdx.bean.TbNuon" >
+    select NUON_ID,NUON_NAME from TB_NUON where NUON_ID=#{nuonId,jdbcType=VARCHAR}
+  </select>
+
+  <insert id="insert" parameterType="com.hdx.bean.TbNuon" >
+    insert into TB_NUON (NUON_ID, NUON_NAME)
+    values (#{nuonId,jdbcType=VARCHAR}, #{nuonName,jdbcType=VARCHAR})
+  </insert>
+
+  <insert id="insertNuon" parameterType="com.hdx.bean.TbNuon" >
+    insert into TB_NUON
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="nuonId != null" >
+        NUON_ID,
+      </if>
+      <if test="nuonName != null" >
+        NUON_NAME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="nuonId != null" >
+        #{nuonId,jdbcType=VARCHAR},
+      </if>
+      <if test="nuonName != null" >
+        #{nuonName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <select id="countByNuon" parameterType="com.hdx.bean.TbNuon" resultType="java.lang.Integer" >
+    select count(*) from TB_NUON WHERE NUON_NAME=#{nuonName,jdbcType=VARCHAR}
+  </select>
+
+  <update id="updateByNuon" parameterType="com.hdx.bean.TbNuon" >
+    update TB_NUON
+    <set >
+      <if test="nuonName != null" >
+        NUON_NAME = #{record.nuonName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <where>
+        <if test="nuonId != null" >
+            NUON_ID = #{nuonId,jdbcType=VARCHAR},
+        </if>
+    </where>
+  </update>
+
+  <update id="updateByExample" parameterType="com.hdx.bean.TbNuon" >
+    update TB_NUON
+    set
+    <if test="nuonName != null">
+        NUON_NAME = #{record.nuonName,jdbcType=VARCHAR},
+    </if>
+    <where>
+        <if test="nuonId != null">
+            NUON_ID = #{record.nuonId,jdbcType=VARCHAR}
+        </if>
+    </where>
+  </update>
+</mapper>

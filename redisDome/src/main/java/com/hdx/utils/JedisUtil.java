@@ -6,7 +6,7 @@ public class JedisUtil {
 
     private static JedisUtil jedisUtil;
 
-    public Jedis jedis = new Jedis();
+    public final Jedis jedis = new Jedis();
 
     /**
      * 私有化构造方法
